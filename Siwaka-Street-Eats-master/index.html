@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="index.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Siwaka Street Eats</title>
+</head>
+<body>
+  <span id="document">
+  	
+    <h1 id = "title">Welcome to Siwaka Street Eats</h1>
+   <span class="wrapper">
+    <div class="container" id = "container-1">
+   <h2>Login</h2>
+      <form action="/login" method="POST" id="login_form">
+        <input placeholder="email" type="text" name="email" required>
+        <br>
+        <input placeholder="Password" type="password" name="password" required>
+        <br>
+        <label for="usertype">
+          <input id="usertype" type="checkbox">
+          Are you a business? 
+        </label>
+        <br>  
+        <br>
+        <div id = "flex">
+        <input id = "login" value="Login" type="submit">
+        <button type="button"><a href="seller_reg.html"> Register</a></button>
+      </div>
+        
+
+
+      </form>
+   
+    </div>
+    <div class = "container" id = "container-2">
+      <img src = "assets/Food.jpg" alt="chicken">
+      <p>
+        Lorem ipsum dolor sit amet,
+         consectetur adipiscing elit.
+          Ut congue augue vitae tristique condimentum.
+           Morbi lobortis non dui facilisis tristique.
+            Morbi quis nisl in dolor lobortis finibus 
+            sed sed ante. Fusce a nisi enim.
+             In auctor nec quam vel bibendum.
+              Mauris lacinia ex vel massa efficitur facilisis.
+               Phasellus id condimentum risus. Morbi vel auctor lectus, eu luctus tortor.
+
+      </p>
+      <p>
+
+      </p>
+    </div>
+  </span>
+  
+  <!-- <script>
+    document.getElementById('login_form').addEventListener('submit', (event) => {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+        const isBusiness = document.getElementById('usertype').checked;
+        if (!isBusiness) {
+            window.location.href = 'homepage_user.html';
+        } else {
+            window.location.href = 'buyerhomepage.html';
+        }
+    });
+</script> -->
+</span>
+</body>
+</html>
